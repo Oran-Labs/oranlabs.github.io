@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Fitvolve</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d0d0d; color: #f0f0f0; line-height: 1.7; }
+    .header { background: #111; border-bottom: 1px solid #2a2a2a; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 100; }
+    .header a { color: #F5A623; text-decoration: none; font-weight: 700; font-size: 18px; }
+    .lang-bar { background: #161616; border-bottom: 1px solid #2a2a2a; padding: 12px 20px; text-align: center; display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+    .lang-btn { background: none; border: 1px solid #2a2a2a; color: #888; padding: 4px 12px; border-radius: 20px; cursor: pointer; font-size: 12px; }
+    .lang-btn.active, .lang-btn:hover { border-color: #F5A623; color: #F5A623; }
+    .content { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    h1 { font-size: 28px; font-weight: 900; color: #F5A623; margin-bottom: 8px; }
+    .date { color: #555; font-size: 13px; margin-bottom: 32px; }
+    h2 { font-size: 16px; font-weight: 800; color: #F5A623; margin: 28px 0 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+    p { color: #ccc; margin-bottom: 12px; font-size: 15px; }
+    ul { color: #ccc; padding-left: 20px; margin-bottom: 12px; font-size: 15px; }
+    li { margin-bottom: 6px; }
+    a { color: #F5A623; }
+    .contact { background: #161616; border: 1px solid #2a2a2a; border-radius: 16px; padding: 20px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+<div class="header"><a href="/">← Oran Labs</a></div>
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('en')">English</button>
+  <button class="lang-btn" onclick="setLang('tr')">Türkçe</button>
+  <button class="lang-btn" onclick="setLang('de')">Deutsch</button>
+  <button class="lang-btn" onclick="setLang('fr')">Français</button>
+  <button class="lang-btn" onclick="setLang('es')">Español</button>
+  <button class="lang-btn" onclick="setLang('it')">Italiano</button>
+  <button class="lang-btn" onclick="setLang('pt')">Português</button>
+  <button class="lang-btn" onclick="setLang('ru')">Русский</button>
+  <button class="lang-btn" onclick="setLang('ar')">العربية</button>
+  <button class="lang-btn" onclick="setLang('hi')">हिन्दी</button>
+  <button class="lang-btn" onclick="setLang('zh')">中文</button>
+</div>
+<div class="content">
+
+<!-- ENGLISH -->
+<div class="lang-section active" id="lang-en">
+  <h1>Privacy Policy</h1>
+  <div class="date">Last updated: May 2025</div>
+  <p>Fitvolve ("we", "our", or "us") is developed by Oran Labs. This Privacy Policy explains how we collect, use, and protect your information when you use our app.</p>
+  <h2>1. Information We Collect</h2>
+  <ul>
+    <li><strong>Profile data:</strong> name, age, height, weight, fitness goals</li>
+    <li><strong>Health & fitness data:</strong> meals, workouts, body measurements, water intake</li>
+    <li><strong>Photos:</strong> profile avatar and body analysis photos (stored securely)</li>
+    <li><strong>Usage data:</strong> app interactions collected via Firebase Analytics</li>
+    <li><strong>Crash reports:</strong> collected via Firebase Crashlytics for stability</li>
+  </ul>
+  <h2>2. How We Use Your Data</h2>
+  <ul>
+    <li>To provide personalized fitness and nutrition tracking</li>
+    <li>To generate AI-powered meal plans and workout suggestions</li>
+    <li>To sync your data across devices via Supabase cloud</li>
+    <li>To improve app performance and fix bugs</li>
+  </ul>
+  <h2>3. Data Storage & Security</h2>
+  <p>Your data is stored locally on your device (SQLite) and optionally synced to Supabase cloud servers. Profile photos are stored in secure, access-controlled cloud storage. Body analysis photos are stored in private buckets accessible only to you.</p>
+  <h2>4. Third-Party Services</h2>
+  <ul>
+    <li><strong>Supabase:</strong> cloud database and storage</li>
+    <li><strong>Firebase:</strong> analytics and crash reporting</li>
+    <li><strong>RevenueCat:</strong> subscription management</li>
+    <li><strong>Apple HealthKit / Google Health Connect:</strong> health data integration (optional)</li>
+    <li><strong>Anthropic Claude API:</strong> AI-powered features (food photo analysis, meal planning, workout suggestions)</li>
+  </ul>
+  <h2>5. Health Data</h2>
+  <p>If you grant permission, we may read step count, active energy, and other health metrics from Apple HealthKit or Google Health Connect. This data is used solely to enhance your fitness tracking experience and is never sold or shared with third parties.</p>
+  <h2>6. AI Features</h2>
+  <p>When you use food photo analysis, AI meal planning, or AI workout suggestions, your photos or anonymized activity data may be sent to Anthropic's Claude API for processing. We do not store these on Anthropic's servers beyond the processing request.</p>
+  <h2>7. Data Retention & Deletion</h2>
+  <p>You can delete your account and all associated data at any time from the Profile screen. Upon deletion, your data is removed from our cloud servers within 30 days.</p>
+  <h2>8. Children's Privacy</h2>
+  <p>Fitvolve is not intended for users under 13 years of age. We do not knowingly collect personal information from children.</p>
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the app.</p>
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>Questions? Contact us at <a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- TÜRKÇE -->
+<div class="lang-section" id="lang-tr">
+  <h1>Gizlilik Politikası</h1>
+  <div class="date">Son güncelleme: Mayıs 2025</div>
+  <p>Fitvolve ("biz"), Oran Labs tarafından geliştirilmektedir. Bu Gizlilik Politikası, uygulamayı kullanırken bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.</p>
+  <h2>1. Topladığımız Bilgiler</h2>
+  <ul>
+    <li><strong>Profil verileri:</strong> ad, yaş, boy, kilo, fitness hedefleri</li>
+    <li><strong>Sağlık & fitness verileri:</strong> öğünler, antrenmanlar, vücut ölçüleri, su tüketimi</li>
+    <li><strong>Fotoğraflar:</strong> profil avatarı ve vücut analizi fotoğrafları (güvenli şekilde saklanır)</li>
+    <li><strong>Kullanım verileri:</strong> Firebase Analytics aracılığıyla uygulama etkileşimleri</li>
+    <li><strong>Hata raporları:</strong> stabilite için Firebase Crashlytics ile toplanır</li>
+  </ul>
+  <h2>2. Verilerinizi Nasıl Kullanıyoruz</h2>
+  <ul>
+    <li>Kişiselleştirilmiş fitness ve beslenme takibi sağlamak için</li>
+    <li>Yapay zeka destekli yemek planları ve antrenman önerileri oluşturmak için</li>
+    <li>Verilerinizi Supabase bulut aracılığıyla cihazlar arasında senkronize etmek için</li>
+    <li>Uygulama performansını iyileştirmek ve hataları düzeltmek için</li>
+  </ul>
+  <h2>3. Veri Depolama & Güvenlik</h2>
+  <p>Verileriniz cihazınızda yerel olarak (SQLite) saklanır ve isteğe bağlı olarak Supabase bulut sunucularına senkronize edilir. Profil fotoğrafları güvenli, erişim kontrollü bulut depolamada saklanır. Vücut analizi fotoğrafları yalnızca size erişilebilir özel depolarda tutulur.</p>
+  <h2>4. Üçüncü Taraf Hizmetler</h2>
+  <ul>
+    <li><strong>Supabase:</strong> bulut veritabanı ve depolama</li>
+    <li><strong>Firebase:</strong> analitik ve hata raporlama</li>
+    <li><strong>RevenueCat:</strong> abonelik yönetimi</li>
+    <li><strong>Apple HealthKit / Google Health Connect:</strong> sağlık verisi entegrasyonu (isteğe bağlı)</li>
+    <li><strong>Anthropic Claude API:</strong> yapay zeka özellikleri (yemek fotoğrafı analizi, yemek planlama, antrenman önerileri)</li>
+  </ul>
+  <h2>5. Sağlık Verisi</h2>
+  <p>İzin verirseniz, Apple HealthKit veya Google Health Connect'ten adım sayısı, aktif enerji ve diğer sağlık metriklerini okuyabiliriz. Bu veriler yalnızca fitness takip deneyiminizi geliştirmek için kullanılır ve asla üçüncü taraflarla satılmaz veya paylaşılmaz.</p>
+  <h2>6. Yapay Zeka Özellikleri</h2>
+  <p>Yemek fotoğrafı analizi, yapay zeka yemek planlaması veya yapay zeka antrenman önerileri kullandığınızda, fotoğraflarınız veya anonimleştirilmiş aktivite verileriniz işleme için Anthropic'in Claude API'sine gönderilebilir.</p>
+  <h2>7. Veri Saklama & Silme</h2>
+  <p>Hesabınızı ve tüm ilgili verilerinizi istediğiniz zaman Profil ekranından silebilirsiniz. Silme işleminin ardından verileriniz 30 gün içinde bulut sunucularımızdan kaldırılır.</p>
+  <h2>8. Çocukların Gizliliği</h2>
+  <p>Fitvolve, 13 yaşın altındaki kullanıcılara yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamayız.</p>
+  <h2>9. Politika Değişiklikleri</h2>
+  <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler hakkında sizi uygulama üzerinden bilgilendireceğiz.</p>
+  <div class="contact">
+    <h2>İletişim</h2>
+    <p>Sorularınız için: <a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- DEUTSCH -->
+<div class="lang-section" id="lang-de">
+  <h1>Datenschutzerklärung</h1>
+  <div class="date">Zuletzt aktualisiert: Mai 2025</div>
+  <p>Fitvolve wird von Oran Labs entwickelt. Diese Datenschutzerklärung erläutert, wie wir Ihre Daten erheben, verwenden und schützen.</p>
+  <h2>1. Erhobene Daten</h2>
+  <ul>
+    <li><strong>Profildaten:</strong> Name, Alter, Größe, Gewicht, Fitnessziele</li>
+    <li><strong>Gesundheits- & Fitnessdaten:</strong> Mahlzeiten, Trainingseinheiten, Körpermaße, Wasseraufnahme</li>
+    <li><strong>Fotos:</strong> Profilbild und Körperanalysefotos (sicher gespeichert)</li>
+    <li><strong>Nutzungsdaten:</strong> App-Interaktionen über Firebase Analytics</li>
+    <li><strong>Absturzberichte:</strong> über Firebase Crashlytics zur Stabilitätsverbesserung</li>
+  </ul>
+  <h2>2. Verwendung Ihrer Daten</h2>
+  <ul>
+    <li>Personalisiertes Fitness- und Ernährungstracking</li>
+    <li>KI-gestützte Ernährungspläne und Trainingsvorschläge</li>
+    <li>Geräteübergreifende Synchronisierung via Supabase</li>
+    <li>Verbesserung der App-Performance</li>
+  </ul>
+  <h2>3. Datenspeicherung & Sicherheit</h2>
+  <p>Ihre Daten werden lokal auf Ihrem Gerät (SQLite) gespeichert und optional mit Supabase-Cloudservern synchronisiert. Körperanalysefotos werden in privaten Buckets gespeichert, die nur für Sie zugänglich sind.</p>
+  <h2>4. Drittanbieter</h2>
+  <ul>
+    <li><strong>Supabase:</strong> Cloud-Datenbank und Speicher</li>
+    <li><strong>Firebase:</strong> Analyse und Absturzberichte</li>
+    <li><strong>RevenueCat:</strong> Abonnementverwaltung</li>
+    <li><strong>Apple HealthKit / Google Health Connect:</strong> Gesundheitsdatenintegration (optional)</li>
+    <li><strong>Anthropic Claude API:</strong> KI-Funktionen</li>
+  </ul>
+  <h2>5. Datenlöschung</h2>
+  <p>Sie können Ihr Konto und alle zugehörigen Daten jederzeit im Profilbereich löschen. Nach der Löschung werden Ihre Daten innerhalb von 30 Tagen von unseren Servern entfernt.</p>
+  <h2>6. Kontakt</h2>
+  <div class="contact">
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- FRANÇAIS -->
+<div class="lang-section" id="lang-fr">
+  <h1>Politique de Confidentialité</h1>
+  <div class="date">Dernière mise à jour : Mai 2025</div>
+  <p>Fitvolve est développé par Oran Labs. Cette politique explique comment nous collectons, utilisons et protégeons vos informations.</p>
+  <h2>1. Données Collectées</h2>
+  <ul>
+    <li><strong>Données de profil :</strong> nom, âge, taille, poids, objectifs fitness</li>
+    <li><strong>Données santé :</strong> repas, entraînements, mesures corporelles, hydratation</li>
+    <li><strong>Photos :</strong> avatar de profil et photos d'analyse corporelle</li>
+    <li><strong>Données d'utilisation :</strong> via Firebase Analytics</li>
+    <li><strong>Rapports de plantage :</strong> via Firebase Crashlytics</li>
+  </ul>
+  <h2>2. Utilisation des Données</h2>
+  <ul>
+    <li>Suivi fitness et nutrition personnalisé</li>
+    <li>Plans repas et suggestions d'entraînement par IA</li>
+    <li>Synchronisation multi-appareils via Supabase</li>
+    <li>Amélioration des performances de l'application</li>
+  </ul>
+  <h2>3. Services Tiers</h2>
+  <ul>
+    <li><strong>Supabase :</strong> base de données et stockage cloud</li>
+    <li><strong>Firebase :</strong> analytique et rapports de plantage</li>
+    <li><strong>RevenueCat :</strong> gestion des abonnements</li>
+    <li><strong>Apple HealthKit / Google Health Connect :</strong> intégration santé (optionnel)</li>
+    <li><strong>Anthropic Claude API :</strong> fonctionnalités IA</li>
+  </ul>
+  <h2>4. Suppression des Données</h2>
+  <p>Vous pouvez supprimer votre compte à tout moment depuis l'écran Profil. Vos données seront supprimées de nos serveurs dans les 30 jours.</p>
+  <div class="contact">
+    <h2>Contact</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- ESPAÑOL -->
+<div class="lang-section" id="lang-es">
+  <h1>Política de Privacidad</h1>
+  <div class="date">Última actualización: Mayo 2025</div>
+  <p>Fitvolve es desarrollado por Oran Labs. Esta política explica cómo recopilamos, usamos y protegemos tu información.</p>
+  <h2>1. Datos que Recopilamos</h2>
+  <ul>
+    <li><strong>Datos de perfil:</strong> nombre, edad, altura, peso, objetivos fitness</li>
+    <li><strong>Datos de salud:</strong> comidas, entrenamientos, medidas corporales, hidratación</li>
+    <li><strong>Fotos:</strong> avatar de perfil y fotos de análisis corporal</li>
+    <li><strong>Datos de uso:</strong> mediante Firebase Analytics</li>
+    <li><strong>Informes de errores:</strong> mediante Firebase Crashlytics</li>
+  </ul>
+  <h2>2. Uso de los Datos</h2>
+  <ul>
+    <li>Seguimiento personalizado de fitness y nutrición</li>
+    <li>Planes de comida y sugerencias de entrenamiento con IA</li>
+    <li>Sincronización entre dispositivos via Supabase</li>
+    <li>Mejora del rendimiento de la app</li>
+  </ul>
+  <h2>3. Servicios de Terceros</h2>
+  <ul>
+    <li><strong>Supabase:</strong> base de datos y almacenamiento cloud</li>
+    <li><strong>Firebase:</strong> análisis e informes de errores</li>
+    <li><strong>RevenueCat:</strong> gestión de suscripciones</li>
+    <li><strong>Apple HealthKit / Google Health Connect:</strong> integración de salud (opcional)</li>
+    <li><strong>Anthropic Claude API:</strong> funciones de IA</li>
+  </ul>
+  <h2>4. Eliminación de Datos</h2>
+  <p>Puedes eliminar tu cuenta y todos los datos asociados en cualquier momento desde la pantalla de Perfil. Tus datos serán eliminados de nuestros servidores en 30 días.</p>
+  <div class="contact">
+    <h2>Contacto</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- ITALIANO -->
+<div class="lang-section" id="lang-it">
+  <h1>Informativa sulla Privacy</h1>
+  <div class="date">Ultimo aggiornamento: Maggio 2025</div>
+  <p>Fitvolve è sviluppato da Oran Labs. Questa informativa spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni.</p>
+  <h2>1. Dati Raccolti</h2>
+  <ul>
+    <li><strong>Dati profilo:</strong> nome, età, altezza, peso, obiettivi fitness</li>
+    <li><strong>Dati salute:</strong> pasti, allenamenti, misure corporee, idratazione</li>
+    <li><strong>Foto:</strong> avatar profilo e foto analisi corporea</li>
+    <li><strong>Dati di utilizzo:</strong> tramite Firebase Analytics</li>
+    <li><strong>Report crash:</strong> tramite Firebase Crashlytics</li>
+  </ul>
+  <h2>2. Utilizzo dei Dati</h2>
+  <ul>
+    <li>Monitoraggio fitness e nutrizione personalizzato</li>
+    <li>Piani pasto e suggerimenti allenamento con IA</li>
+    <li>Sincronizzazione tra dispositivi via Supabase</li>
+    <li>Miglioramento delle prestazioni dell'app</li>
+  </ul>
+  <h2>3. Servizi di Terze Parti</h2>
+  <ul>
+    <li><strong>Supabase:</strong> database e archiviazione cloud</li>
+    <li><strong>Firebase:</strong> analisi e report crash</li>
+    <li><strong>RevenueCat:</strong> gestione abbonamenti</li>
+    <li><strong>Apple HealthKit / Google Health Connect:</strong> integrazione salute (opzionale)</li>
+    <li><strong>Anthropic Claude API:</strong> funzionalità IA</li>
+  </ul>
+  <h2>4. Eliminazione Dati</h2>
+  <p>Puoi eliminare il tuo account e tutti i dati associati in qualsiasi momento dalla schermata Profilo. I dati verranno rimossi dai nostri server entro 30 giorni.</p>
+  <div class="contact">
+    <h2>Contatto</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- PORTUGUÊS -->
+<div class="lang-section" id="lang-pt">
+  <h1>Política de Privacidade</h1>
+  <div class="date">Última atualização: Maio de 2025</div>
+  <p>Fitvolve é desenvolvido pela Oran Labs. Esta política explica como coletamos, usamos e protegemos suas informações.</p>
+  <h2>1. Dados Coletados</h2>
+  <ul>
+    <li><strong>Dados de perfil:</strong> nome, idade, altura, peso, objetivos fitness</li>
+    <li><strong>Dados de saúde:</strong> refeições, treinos, medidas corporais, hidratação</li>
+    <li><strong>Fotos:</strong> avatar de perfil e fotos de análise corporal</li>
+    <li><strong>Dados de uso:</strong> via Firebase Analytics</li>
+    <li><strong>Relatórios de falha:</strong> via Firebase Crashlytics</li>
+  </ul>
+  <h2>2. Uso dos Dados</h2>
+  <ul>
+    <li>Acompanhamento personalizado de fitness e nutrição</li>
+    <li>Planos de refeição e sugestões de treino com IA</li>
+    <li>Sincronização entre dispositivos via Supabase</li>
+    <li>Melhoria do desempenho do aplicativo</li>
+  </ul>
+  <h2>3. Serviços de Terceiros</h2>
+  <ul>
+    <li><strong>Supabase:</strong> banco de dados e armazenamento em nuvem</li>
+    <li><strong>Firebase:</strong> análise e relatórios de falha</li>
+    <li><strong>RevenueCat:</strong> gerenciamento de assinaturas</li>
+    <li><strong>Apple HealthKit / Google Health Connect:</strong> integração de saúde (opcional)</li>
+    <li><strong>Anthropic Claude API:</strong> funcionalidades de IA</li>
+  </ul>
+  <h2>4. Exclusão de Dados</h2>
+  <p>Você pode excluir sua conta e todos os dados associados a qualquer momento na tela de Perfil. Seus dados serão removidos dos nossos servidores em 30 dias.</p>
+  <div class="contact">
+    <h2>Contato</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- РУССКИЙ -->
+<div class="lang-section" id="lang-ru">
+  <h1>Политика Конфиденциальности</h1>
+  <div class="date">Последнее обновление: Май 2025</div>
+  <p>Fitvolve разработан Oran Labs. Эта политика объясняет, как мы собираем, используем и защищаем ваши данные.</p>
+  <h2>1. Собираемые данные</h2>
+  <ul>
+    <li><strong>Данные профиля:</strong> имя, возраст, рост, вес, фитнес-цели</li>
+    <li><strong>Данные о здоровье:</strong> приёмы пищи, тренировки, замеры тела, потребление воды</li>
+    <li><strong>Фотографии:</strong> аватар профиля и фото для анализа тела</li>
+    <li><strong>Данные об использовании:</strong> через Firebase Analytics</li>
+    <li><strong>Отчёты о сбоях:</strong> через Firebase Crashlytics</li>
+  </ul>
+  <h2>2. Использование данных</h2>
+  <ul>
+    <li>Персонализированное отслеживание фитнеса и питания</li>
+    <li>Планы питания и рекомендации тренировок на основе ИИ</li>
+    <li>Синхронизация между устройствами через Supabase</li>
+    <li>Улучшение производительности приложения</li>
+  </ul>
+  <h2>3. Сторонние сервисы</h2>
+  <ul>
+    <li><strong>Supabase:</strong> облачная база данных и хранилище</li>
+    <li><strong>Firebase:</strong> аналитика и отчёты о сбоях</li>
+    <li><strong>RevenueCat:</strong> управление подписками</li>
+    <li><strong>Apple HealthKit / Google Health Connect:</strong> интеграция данных о здоровье (опционально)</li>
+    <li><strong>Anthropic Claude API:</strong> функции ИИ</li>
+  </ul>
+  <h2>4. Удаление данных</h2>
+  <p>Вы можете удалить аккаунт и все связанные данные в любое время в разделе Профиль. Ваши данные будут удалены с наших серверов в течение 30 дней.</p>
+  <div class="contact">
+    <h2>Контакты</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- ARABIC -->
+<div class="lang-section" id="lang-ar" dir="rtl" style="text-align:right">
+  <h1>سياسة الخصوصية</h1>
+  <div class="date">آخر تحديث: مايو 2025</div>
+  <p>تم تطوير Fitvolve بواسطة Oran Labs. توضح هذه السياسة كيفية جمع معلوماتك واستخدامها وحمايتها.</p>
+  <h2>١. البيانات التي نجمعها</h2>
+  <ul>
+    <li><strong>بيانات الملف الشخصي:</strong> الاسم والعمر والطول والوزن وأهداف اللياقة البدنية</li>
+    <li><strong>بيانات الصحة واللياقة:</strong> الوجبات والتدريبات وقياسات الجسم واستهلاك الماء</li>
+    <li><strong>الصور:</strong> صورة الملف الشخصي وصور تحليل الجسم</li>
+    <li><strong>بيانات الاستخدام:</strong> عبر Firebase Analytics</li>
+    <li><strong>تقارير الأعطال:</strong> عبر Firebase Crashlytics</li>
+  </ul>
+  <h2>٢. استخدام البيانات</h2>
+  <ul>
+    <li>تتبع اللياقة والتغذية المخصص</li>
+    <li>خطط الوجبات واقتراحات التدريب بالذكاء الاصطناعي</li>
+    <li>المزامنة عبر الأجهزة عبر Supabase</li>
+    <li>تحسين أداء التطبيق</li>
+  </ul>
+  <h2>٣. حذف البيانات</h2>
+  <p>يمكنك حذف حسابك وجميع البيانات المرتبطة به في أي وقت من شاشة الملف الشخصي. ستتم إزالة بياناتك من خوادمنا في غضون 30 يومًا.</p>
+  <div class="contact">
+    <h2>التواصل</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- HINDI -->
+<div class="lang-section" id="lang-hi">
+  <h1>गोपनीयता नीति</h1>
+  <div class="date">अंतिम अपडेट: मई 2025</div>
+  <p>Fitvolve को Oran Labs द्वारा विकसित किया गया है। यह नीति बताती है कि हम आपकी जानकारी कैसे एकत्र, उपयोग और सुरक्षित करते हैं।</p>
+  <h2>1. एकत्र किया गया डेटा</h2>
+  <ul>
+    <li><strong>प्रोफ़ाइल डेटा:</strong> नाम, आयु, ऊंचाई, वजन, फिटनेस लक्ष्य</li>
+    <li><strong>स्वास्थ्य डेटा:</strong> भोजन, वर्कआउट, शरीर के माप, पानी का सेवन</li>
+    <li><strong>फ़ोटो:</strong> प्रोफ़ाइल अवतार और शरीर विश्लेषण फ़ोटो</li>
+    <li><strong>उपयोग डेटा:</strong> Firebase Analytics के माध्यम से</li>
+    <li><strong>क्रैश रिपोर्ट:</strong> Firebase Crashlytics के माध्यम से</li>
+  </ul>
+  <h2>2. डेटा का उपयोग</h2>
+  <ul>
+    <li>व्यक्तिगत फिटनेस और पोषण ट्रैकिंग</li>
+    <li>AI-संचालित भोजन योजनाएं और वर्कआउट सुझाव</li>
+    <li>Supabase के माध्यम से डिवाइस सिंक्रोनाइज़ेशन</li>
+    <li>ऐप प्रदर्शन में सुधार</li>
+  </ul>
+  <h2>3. डेटा हटाना</h2>
+  <p>आप प्रोफ़ाइल स्क्रीन से किसी भी समय अपना खाता और सभी संबंधित डेटा हटा सकते हैं। आपका डेटा 30 दिनों के भीतर हमारे सर्वर से हटा दिया जाएगा।</p>
+  <div class="contact">
+    <h2>संपर्क</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- CHINESE -->
+<div class="lang-section" id="lang-zh">
+  <h1>隐私政策</h1>
+  <div class="date">最后更新：2025年5月</div>
+  <p>Fitvolve 由 Oran Labs 开发。本隐私政策说明我们如何收集、使用和保护您的信息。</p>
+  <h2>1. 收集的数据</h2>
+  <ul>
+    <li><strong>个人资料：</strong>姓名、年龄、身高、体重、健身目标</li>
+    <li><strong>健康与健身数据：</strong>饮食、训练、身体测量、饮水量</li>
+    <li><strong>照片：</strong>头像和身体分析照片</li>
+    <li><strong>使用数据：</strong>通过 Firebase Analytics 收集</li>
+    <li><strong>崩溃报告：</strong>通过 Firebase Crashlytics 收集</li>
+  </ul>
+  <h2>2. 数据使用</h2>
+  <ul>
+    <li>个性化健身与营养跟踪</li>
+    <li>AI 驱动的膳食计划和训练建议</li>
+    <li>通过 Supabase 进行跨设备同步</li>
+    <li>改善应用性能</li>
+  </ul>
+  <h2>3. 数据删除</h2>
+  <p>您可以随时在个人资料页面删除您的账户和所有相关数据。您的数据将在 30 天内从我们的服务器中删除。</p>
+  <div class="contact">
+    <h2>联系方式</h2>
+    <p><a href="mailto:oranlabs.dev@gmail.com">oranlabs.dev@gmail.com</a></p>
+  </div>
+</div>
+
+</div><!-- /content -->
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
